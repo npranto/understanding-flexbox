@@ -27,7 +27,12 @@ A guide to understanding flexbox in depth with practical examples
     + [no-wrap](http://understanding-flexbox.surge.sh/#flex-wrap-no-wrap)
     + [wrap-reverse](http://understanding-flexbox.surge.sh/#flex-wrap-wrap-reverse)
 
-
+#### flex-flow
++ a shortcut to using both flex-direction and flex-wrap values together(i.e., `flex-flow: row wrap`)
++ `flex-flow` property values:
+    + [row nowrap](http://understanding-flexbox.surge.sh/#flex-flow-row-nowrap)
+    + [column wrap](http://understanding-flexbox.surge.sh/#flex-flow-column-wrap)
+    + [column nowrap](http://understanding-flexbox.surge.sh/#flex-flow-column-nowrap)
 
 
 

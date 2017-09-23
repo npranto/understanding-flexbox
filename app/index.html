@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Examples - Flexbox Model  </title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -10,7 +9,7 @@
 
     <h1 style="text-align: center; font-family: AppleGothic"> Understanding Flexbox  </h1>
 
-    <h2 style="font-family: AppleGothic; color: dimgray"> Flex Direction </h2>
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Direction </h2>
     <div class="container">
         <a name="flex-direction-row"></a>
         <h2 class="header red">
@@ -177,7 +176,7 @@
         </details>
     </div>
 
-    <h2 style="font-family: AppleGothic; color: dimgray"> Flex Wrap </h2>
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Wrap </h2>
     <div class="container">
         <a name="flex-wrap-no-wrap"></a>
         <h2 class="header red">
@@ -326,6 +325,165 @@
                         .seven {
                             display: flex;
                             flex-wrap: wrap-reverse;
+                        }
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Flow </h2>
+    <div class="container">
+        <a name="flex-flow-row-nowrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: row nowrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="eight">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="eight"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+                        .eight {
+                            display: flex;
+                            flex-flow: row nowrap;
+                            overflow: auto
+                        }
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-flow-column-wrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: column wrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="nine">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="nine"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+                        .nine {
+                            display: flex;
+                            flex-flow: column wrap;
+                        }
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-flow-column-nowrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: column nowrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="ten">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="ten"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+                        .ten {
+                            display: flex;
+                            flex-flow: column nowrap;
                         }
                             <!--code-->
                         </pre>
