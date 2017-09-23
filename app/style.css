@@ -2,11 +2,12 @@
 .container {
     background: lightgray;
     padding: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 .red {
     color: #BB533A;
+}
+.gray {
+    color: dimgray;
 }
 ul {
     padding-left: 0px;
@@ -54,4 +55,22 @@ li {
 .four {
     display: flex;
     flex-direction: column-reverse;
+}
+
+/*----- five -----*/
+.five {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*----- six -----*/
+.six {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*----- seven -----*/
+.seven {
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
