@@ -1,9 +1,12 @@
 /*----- global -----*/
-.bg-gray {
+.container {
     background: lightgray;
-}
-.space {
     padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.red {
+    color: #BB533A;
 }
 ul {
     padding-left: 0px;
@@ -33,4 +36,22 @@ li {
 .one {
     display: flex;
     flex-direction: row;
+}
+
+/*----- two -----*/
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+/*----- three -----*/
+.three {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*----- four -----*/
+.four {
+    display: flex;
+    flex-direction: column-reverse;
 }
