@@ -20,6 +20,14 @@ A guide to understanding flexbox in depth with practical examples
     + [row-reverse](http://understanding-flexbox.surge.sh/#flex-direction-row-reverse)
     + [column-reverse](http://understanding-flexbox.surge.sh/#flex-direction-column-reverse)
 
+#### flex-wrap
++ controls the flow of flex items and whether or not they should be forced into a single line or wrapped in multiple lines (despite the number of flex items)
++ `flex-wrap` property values:
+    + [wrap](http://understanding-flexbox.surge.sh/#flex-wrap-wrap)
+    + [no-wrap](http://understanding-flexbox.surge.sh/#flex-wrap-no-wrap)
+    + [wrap-reverse](http://understanding-flexbox.surge.sh/#flex-wrap-wrap-reverse)
+
+
 
 
 
