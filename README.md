@@ -1,6 +1,7 @@
 # understanding-flexbox
 A guide to understanding flexbox in depth with practical examples
 
+[Visual Guide](http://understanding-flexbox.surge.sh)
 
 ### Flexbox
 + a recently new CSS standard that simplifies adding desired layouts to page content
@@ -14,10 +15,10 @@ A guide to understanding flexbox in depth with practical examples
 #### flex-direction
 + controls the direction of flex container items 
 + `flex-direction` property values:
-    + [row](www.google.com)
-    + [column](www.google.com)
-    + [row-reverse](www.google.com)
-    + [column-reverse](www.google.com)
+    + [row](http://understanding-flexbox.surge.sh/#flex-direction-row)
+    + [column](http://understanding-flexbox.surge.sh/#flex-direction-column)
+    + [row-reverse](http://understanding-flexbox.surge.sh/#flex-direction-row-reverse)
+    + [column-reverse](http://understanding-flexbox.surge.sh/#flex-direction-column-reverse)
 
 
 
