@@ -1,0 +1,36 @@
+/*----- global -----*/
+.bg-gray {
+    background: lightgray;
+}
+.space {
+    padding: 0.5em;
+}
+ul {
+    padding-left: 0px;
+    margin: 0px;
+    background: black;
+}
+li {
+    list-style-type: none;
+    background: white;
+    padding: 1em;
+    margin: 1em;
+}
+.header {
+    margin: 0px;
+    padding-bottom: 0.50em;
+}
+.source-code {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+/*----- one -----*/
+.one {
+    display: flex;
+    flex-direction: row;
+}
