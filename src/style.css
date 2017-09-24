@@ -34,8 +34,13 @@ li {
     margin-left: 1em;
     margin-right: 1em;
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.html {
+    margin-right: 1em;
+}
+.css {
+    margin-left: 1em;
 }
 
 
@@ -99,4 +104,83 @@ li {
 .ten {
     display: flex;
     flex-flow: column nowrap;
+}
+
+/*----- eleven -----*/
+.eleven {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*----- twelve -----*/
+.twelve {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*----- thirteen -----*/
+.thirteen {
+    display: flex;
+    justify-content: center;
+}
+
+/*----- fourteen -----*/
+.fourteen {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----- fifteen -----*/
+.fifteen {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*----- sixteen -----*/
+.sixteen {
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+}
+
+/*----- seventeen -----*/
+.seventeen {
+    display: flex;
+    height: 300px;
+    align-items: flex-start;
+}
+
+/*----- eighteen -----*/
+.eighteen {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+}
+
+/*----- nineteen -----*/
+.nineteen {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+/*----- twenty -----*/
+.twenty {
+    display: flex;
+    height: 300px;
+    align-items: baseline;
+}
+
+/*----- twenty-one -----*/
+.twenty-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+/*----- twenty-two -----*/
+.twenty-two {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }

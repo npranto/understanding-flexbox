@@ -34,6 +34,32 @@ A guide to understanding flexbox in depth with practical examples
     + [column wrap](http://understanding-flexbox.surge.sh/#flex-flow-column-wrap)
     + [column nowrap](http://understanding-flexbox.surge.sh/#flex-flow-column-nowrap)
 
+#### justify-content
++ a more enhanced version of text-align for all DOM elements to align elements in the main axis(horizontally)
++ `justify-content` property values:
+    + [flex-start](http://understanding-flexbox.surge.sh/#justify-content-flex-start)
+    + [flex-end](http://understanding-flexbox.surge.sh/#justify-content-flex-end)
+    + [center](http://understanding-flexbox.surge.sh/#justify-content-center)
+    + [space-between](http://understanding-flexbox.surge.sh/#justify-content-space-between)
+    + [space-around](http://understanding-flexbox.surge.sh/#justify-content-space-around)
+
+#### align-items
++ a more enhanced version of text-align for all DOM elements to align elements in the cross axis(vertically)
++ `align-items` property values:
+    + [flex-start](http://understanding-flexbox.surge.sh/#align-items-flex-start)
+    + [flex-end](http://understanding-flexbox.surge.sh/#align-items-flex-end)
+    + [center](http://understanding-flexbox.surge.sh/#align-items-center)
+    + [stretch](http://understanding-flexbox.surge.sh/#align-items-stretch)
+    + [baseline](http://understanding-flexbox.surge.sh/#align-items-baseline)
+
+#### align-content
++ controls how flex items are aligned in multi line flex containers
++ `align-content` property values:
+    + [flex-start](http://understanding-flexbox.surge.sh/#align-content-flex-start)
+    + [flex-end](http://understanding-flexbox.surge.sh/#align-content-flex-end)
+    + [center](http://understanding-flexbox.surge.sh/#align-content-center)
+    + [stretch](http://understanding-flexbox.surge.sh/#align-content-stretch)
+
 
 
 
