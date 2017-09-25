@@ -61,6 +61,14 @@ A guide to understanding flexbox in depth with practical examples
     + [stretch](http://understanding-flexbox.surge.sh/#align-content-stretch)
 
 
+### Flex Item Properties
+#### order
++ controls the order of flex items to be displayed
++ default value is 0, but can take in both positive and negative integer values
++ works similar to z-index, order of content goes from lowest order integer to highest
+    + [0](http://understanding-flexbox.surge.sh/#order-0)    
+    + [-1](http://understanding-flexbox.surge.sh/#order--1)
+    + [1](http://understanding-flexbox.surge.sh/#order-1)
 
 
 
