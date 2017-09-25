@@ -173,6 +173,7 @@ li {
 
 /*----- twenty-one -----*/
 .twenty-one {
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
@@ -180,7 +181,24 @@ li {
 
 /*----- twenty-two -----*/
 .twenty-two {
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+}
+
+/*----- twenty-three -----*/
+.twenty-three {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/*----- twenty-four -----*/
+.twenty-four {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
