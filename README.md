@@ -66,9 +66,16 @@ A guide to understanding flexbox in depth with practical examples
 + controls the order of flex items to be displayed
 + default value is 0, but can take in both positive and negative integer values
 + works similar to z-index, order of content goes from lowest order integer to highest
-    + [0](http://understanding-flexbox.surge.sh/#order-0)    
-    + [-1](http://understanding-flexbox.surge.sh/#order--1)
-    + [1](http://understanding-flexbox.surge.sh/#order-1)
+    + [order: 0](http://understanding-flexbox.surge.sh/#order-0)    
+    + [order: -1](http://understanding-flexbox.surge.sh/#order--1)
+    + [order: 1](http://understanding-flexbox.surge.sh/#order-1)
 
-
-
+#### flex-grow AND flex-shrink
++ controls the amount of space a flex item can take in, squeeze in based on available space
++ flex grow expands content to full extent of parent element horizontally
++ flex shrink shrinks content to its default size if there is available space or if there is no space, it shrinks content to fit within parent element
++ default value is 0, but it can also be any positive integer
+    + [flex-shrink: 0](http://understanding-flexbox.surge.sh/#flex-shrink-0)
+    + [flex-shrink: 1](http://understanding-flexbox.surge.sh/#flex-shrink-1)
+    + [flex-grow: 0](http://understanding-flexbox.surge.sh/#flex-grow-0)
+    + [flex-grow: 1](http://understanding-flexbox.surge.sh/#flex-grow-1)
