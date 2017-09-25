@@ -221,11 +221,48 @@ li {
     order: -1;
 }
 
-/*----- twenty-six -----*/
+/*----- twenty-seven -----*/
 .twenty-seven {
     display: flex;
     flex-flow: row wrap;
 }
 .twenty-seven li:nth-child(2) {
     order: 1;
+}
+
+/*----- twenty-eight -----*/
+.twenty-eight {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-eight li {
+    flex-shrink: 0;
+}
+
+/*----- twenty-nine -----*/
+.twenty-nine {
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+}
+.twenty-nine li {
+    flex-shrink: 1;
+}
+
+/*----- thirty -----*/
+.thirty {
+    display: flex;
+    flex-flow: row wrap;
+}
+.thirty li {
+    flex-grow: 0;
+}
+
+/*----- thirty-one -----*/
+.thirty-one {
+    display: flex;
+    flex-flow: row wrap;
+}
+.thirty-one li {
+    flex-grow: 1;
 }
