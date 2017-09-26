@@ -89,3 +89,10 @@ A guide to understanding flexbox in depth with practical examples
     + [flex-basis: auto](http://understanding-flexbox.surge.sh/#flex-basis-auto)
     + [flex-basis: 50%](http://understanding-flexbox.surge.sh/#flex-basis-50-percentage)
     + [flex-basis: 100px](http://understanding-flexbox.surge.sh/#flex-basis-100-pixels)
+
+#### flex
++ a shorthand for flex-shrink, flex-grow and flex-basis all together
++ an simple example could be `flex: 0 1 auto`, 0 is flex-grow, 1 is flex-shrink, and auto is flex-basis 
++ `flex`property values:
+    + [flex: 0 1 150px](http://understanding-flexbox.surge.sh/#flex)
+

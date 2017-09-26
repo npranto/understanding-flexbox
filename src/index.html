@@ -1716,5 +1716,53 @@
             </article>
         </details>
     </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex </h2>
+    <div class="container">
+        <a name="flex"></a>
+        <h2 class="header red">
+            <code>
+                flex: 0 1 150px;
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-five">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-five"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-five {
+    display: flex;
+}
+.thirty-five li {
+    flex: 0 1 150px;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
 </body>
 </html>
