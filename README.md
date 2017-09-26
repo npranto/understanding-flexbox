@@ -66,6 +66,7 @@ A guide to understanding flexbox in depth with practical examples
 + controls the order of flex items to be displayed
 + default value is 0, but can take in both positive and negative integer values
 + works similar to z-index, order of content goes from lowest order integer to highest
++ `order` property values:    
     + [order: 0](http://understanding-flexbox.surge.sh/#order-0)    
     + [order: -1](http://understanding-flexbox.surge.sh/#order--1)
     + [order: 1](http://understanding-flexbox.surge.sh/#order-1)
@@ -75,7 +76,16 @@ A guide to understanding flexbox in depth with practical examples
 + flex grow expands content to full extent of parent element horizontally
 + flex shrink shrinks content to its default size if there is available space or if there is no space, it shrinks content to fit within parent element
 + default value is 0, but it can also be any positive integer
++ `flex-grow` and `flex-shrink` property values:    
     + [flex-shrink: 0](http://understanding-flexbox.surge.sh/#flex-shrink-0)
     + [flex-shrink: 1](http://understanding-flexbox.surge.sh/#flex-shrink-1)
     + [flex-grow: 0](http://understanding-flexbox.surge.sh/#flex-grow-0)
     + [flex-grow: 1](http://understanding-flexbox.surge.sh/#flex-grow-1)
+
+#### flex-basis
++ specifies an initial size of flex items, but it can altered with flex-grow and flex-shrink
++ default value is 'auto,' but it can also be any size attribute(px, em, % etc.)
++ `flex-basis` property values:    
+    + [flex-basis: auto](http://understanding-flexbox.surge.sh/#flex-basis-auto)
+    + [flex-basis: 50%](http://understanding-flexbox.surge.sh/#flex-basis-50-percentage)
+    + [flex-basis: 100px](http://understanding-flexbox.surge.sh/#flex-basis-100-pixels)
