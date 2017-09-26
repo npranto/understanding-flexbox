@@ -266,3 +266,27 @@ li {
 .thirty-one li {
     flex-grow: 1;
 }
+
+/*----- thirty-two -----*/
+.thirty-two {
+    display: flex;
+}
+.thirty-two li {
+    flex-basis: auto;
+}
+
+/*----- thirty-three -----*/
+.thirty-three {
+    display: flex;
+}
+.thirty-three li {
+    flex-basis: 50%;
+}
+
+/*----- thirty-four -----*/
+.thirty-four {
+    display: flex;
+}
+.thirty-four li {
+    flex-basis: 100px;
+}
