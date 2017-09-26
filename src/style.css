@@ -352,3 +352,45 @@ li {
 .forty-one li:first-of-type {
     align-self: baseline;
 }
+
+/*----- forty-two -----*/
+.forty-two {
+    display: flex;
+}
+.forty-two li {
+    flex: 0 0 auto;
+}
+
+/*----- forty-three -----*/
+.forty-three {
+    display: flex;
+}
+.forty-three li {
+    flex: 0 0 auto;
+}
+.forty-three li:nth-child(1) {
+    margin-right: auto;
+}
+
+/*----- forty-four -----*/
+.forty-four {
+    display: flex;
+}
+.forty-four li {
+    flex: 0 0 auto;
+}
+.forty-four li:nth-child(4) {
+    margin-left: auto;
+}
+
+/*----- forty-five -----*/
+.forty-five {
+    display: flex;
+}
+.forty-five li {
+    flex: 0 0 auto;
+}
+.forty-five li:nth-child(3) {
+    margin-left: auto;
+    margin-right: auto;
+}
