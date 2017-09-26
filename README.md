@@ -96,3 +96,12 @@ A guide to understanding flexbox in depth with practical examples
 + `flex`property values:
     + [flex: 0 1 150px](http://understanding-flexbox.surge.sh/#flex)
 
+#### align-self
++ helps to align specific flex items to align differently compared to its siblings
++ `align-self` property values:
+    + [flex-start](http://understanding-flexbox.surge.sh/#align-self-flex-start)
+    + [flex-end](http://understanding-flexbox.surge.sh/#align-self-flex-end)
+    + [center](http://understanding-flexbox.surge.sh/#align-self-center)
+    + [baseline](http://understanding-flexbox.surge.sh/#align-self-baseline)    
+    + [stretch](http://understanding-flexbox.surge.sh/#align-self-stretch)
+    + [auto](http://understanding-flexbox.surge.sh/#align-self-auto)
