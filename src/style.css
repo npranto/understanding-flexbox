@@ -298,3 +298,57 @@ li {
 .thirty-five li {
     flex: 0 1 150px;
 }
+
+/*----- thirty-six -----*/
+.thirty-six {
+    display: flex;
+    height: 500px;
+}
+.thirty-six li:first-of-type {
+    align-self: flex-start;
+}
+
+/*----- thirty-seven -----*/
+.thirty-seven {
+    display: flex;
+    height: 500px;
+}
+.thirty-seven li:first-of-type {
+    align-self: flex-end;
+}
+
+/*----- thirty-seven -----*/
+.thirty-eight {
+    display: flex;
+    height: 500px;
+}
+.thirty-eight li:first-of-type {
+    align-self: center;
+}
+
+/*----- thirty-nine -----*/
+.thirty-nine {
+    display: flex;
+    height: 500px;
+}
+.thirty-nine li:first-of-type {
+    align-self: stretch;
+}
+
+/*----- forty -----*/
+.forty {
+    display: flex;
+    height: 500px;
+}
+.forty li:first-of-type {
+    align-self: auto;
+}
+
+/*----- forty-one -----*/
+.forty-one {
+    display: flex;
+    height: 500px;
+}
+.forty-one li:first-of-type {
+    align-self: baseline;
+}
