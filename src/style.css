@@ -290,3 +290,11 @@ li {
 .thirty-four li {
     flex-basis: 100px;
 }
+
+/*----- thirty-five -----*/
+.thirty-five {
+    display: flex;
+}
+.thirty-five li {
+    flex: 0 1 150px;
+}
