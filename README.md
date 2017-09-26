@@ -105,3 +105,10 @@ A guide to understanding flexbox in depth with practical examples
     + [baseline](http://understanding-flexbox.surge.sh/#align-self-baseline)    
     + [stretch](http://understanding-flexbox.surge.sh/#align-self-stretch)
     + [auto](http://understanding-flexbox.surge.sh/#align-self-auto)
+
+#### auto-margin-alignment
++ helps with auto margin behavior for flex items
+    + [default margin](http://understanding-flexbox.surge.sh/#auto-margin-alignment)
+    + [margin-right: auto](http://understanding-flexbox.surge.sh/#auto-margin-alignment-margin-right-auto)
+    + [margin-left: auto](http://understanding-flexbox.surge.sh/#auto-margin-alignment-margin-left-auto)
+    + [margin-left: auto & margin-right: auto](http://understanding-flexbox.surge.sh/#auto-margin-alignment-margin-left-and-right-auto )
