@@ -1,37 +1,7 @@
 body {
-	padding: 1em 5em;
-}
-* {
-	font-family: 'Roboto', sans-serif;
-	padding: 0px;
-	margin: 0px;
-}
-ul {
-	list-style-type: none;
+
 }
 .navbar {
-	background: lightgray;
-}
-.tabs {
-	border: 0.20em solid orangered;
-	display: flex;
-}
-.tab {
-	font-size: 1em;
-	color: white;
-	background: black;
-	padding: 1em;
-	flex-grow: 1;
-	text-align: center;
-}
-.tab:last-child {
-	flex-grow: 3;
-	margin-left: auto;
-}
-.social-tabs {
-	display: flex;
-}
-.social-tab {
-	flex-grow: 1;
-	text-align: center;
+    margin: 2em 5em;
+    background: lightgray;
 }
