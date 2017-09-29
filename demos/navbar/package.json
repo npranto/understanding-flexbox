@@ -1,0 +1,20 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "A demo for navigation bar with flexbox model",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp watch"
+  },
+  "keywords": [
+    "navbar"
+  ],
+  "author": "Nazmuz Shakib Pranto <npranto@gmail.com> (https://github.com/npranto)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "rimraf": "^2.6.2"
+  }
+}
