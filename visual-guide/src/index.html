@@ -1,0 +1,2264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Examples - Flexbox Model  </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center; font-family: AppleGothic"> Understanding Flexbox  </h1>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Direction </h2>
+    <div class="container">
+        <a name="flex-direction-row"></a>
+        <h2 class="header red">
+            <code>
+                flex-direction: row
+            </code>
+        </h2>
+        <!--code-->
+            <ul class="one">
+                <li class="item"> Apple </li>
+                <li class="item"> Banana </li>
+                <li class="item"> Orange </li>
+                <li class="item"> Peach </li>
+            </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="one"&gt;<br />    &lt;li class="item"&gt; Apple &lt;/li&gt;<br />    &lt;li class="item"&gt; Banana &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Peach &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.one {
+    display: flex;
+    flex-direction: row;
+}
+                        <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+<!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-direction-column"></a>
+        <h2 class="header red">
+            <code>
+                flex-direction: column
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="two">
+            <li class="item"> Apple </li>
+            <li class="item"> Banana </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Peach </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="two"&gt;<br />    &lt;li class="item"&gt; Apple &lt;/li&gt;<br />    &lt;li class="item"&gt; Banana &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Peach &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.two {
+    display: flex;
+    flex-direction: column;
+}
+                        <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-direction-row-reverse"></a>
+        <h2 class="header red">
+            <code>
+                flex-direction: row-reverse
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="three">
+            <li class="item"> Apple </li>
+            <li class="item"> Banana </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Peach </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="three"&gt;<br />    &lt;li class="item"&gt; Apple &lt;/li&gt;<br />    &lt;li class="item"&gt; Banana &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Peach &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.three {
+    display: flex;
+    flex-direction: row-reverse;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-direction-column-reverse"></a>
+        <h2 class="header red">
+            <code>
+                flex-direction: column-reverse
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="four">
+            <li class="item"> Apple </li>
+            <li class="item"> Banana </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Peach </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="four"&gt;<br />    &lt;li class="item"&gt; Apple &lt;/li&gt;<br />    &lt;li class="item"&gt; Banana &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Peach &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.four {
+    display: flex;
+    flex-direction: column-reverse;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Wrap </h2>
+    <div class="container">
+        <a name="flex-wrap-no-wrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-wrap: nowrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="five">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="five"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.five {
+    display: flex;
+    flex-wrap: nowrap;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-wrap-wrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-wrap: wrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="six">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="six"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.six {
+    display: flex;
+    flex-wrap: wrap;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-wrap-wrap-reverse"></a>
+        <h2 class="header red">
+            <code>
+                flex-wrap: wrap-reverse
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="seven">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="seven"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.seven {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Flow </h2>
+    <div class="container">
+        <a name="flex-flow-row-nowrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: row nowrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="eight">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="eight"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.eight {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: auto
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-flow-column-wrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: column wrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="nine">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="nine"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.nine {
+    display: flex;
+    flex-flow: column wrap;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-flow-column-nowrap"></a>
+        <h2 class="header red">
+            <code>
+                flex-flow: column nowrap
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="ten">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+            <li class="item"> Brown </li>
+            <li class="item"> Silver </li>
+            <li class="item"> Black </li>
+            <li class="item"> Magenta </li>
+            <li class="item"> Maroon </li>
+            <li class="item"> Yellow </li>
+            <li class="item"> Gold </li>
+            <li class="item"> Cyon </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="ten"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />    &lt;li class="item"&gt; Brown &lt;/li&gt;<br />    &lt;li class="item"&gt; Silver &lt;/li&gt;<br />    &lt;li class="item"&gt; Black &lt;/li&gt;<br />    &lt;li class="item"&gt; Magenta &lt;/li&gt;<br />    &lt;li class="item"&gt; Maroon &lt;/li&gt;<br />    &lt;li class="item"&gt; Yellow &lt;/li&gt;<br />    &lt;li class="item"&gt; Gold &lt;/li&gt;<br />    &lt;li class="item"&gt; Cyon &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.ten {
+    display: flex;
+    flex-flow: column nowrap;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Justify Content </h2>
+    <div class="container">
+        <a name="justify-content-flex-start"></a>
+        <h2 class="header red">
+            <code>
+                justify-content: flex-start
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="eleven">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="eleven"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.eleven {
+    display: flex;
+    justify-content: flex-start;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="justify-content-flex-end"></a>
+        <h2 class="header red">
+            <code>
+                justify-content: flex-end
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twelve">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twelve"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twelve {
+    display: flex;
+    justify-content: flex-end;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="justify-content-center"></a>
+        <h2 class="header red">
+            <code>
+                justify-content: center
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirteen">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirteen {
+    display: flex;
+    justify-content: center;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="justify-content-space-between"></a>
+        <h2 class="header red">
+            <code>
+                justify-content: space-between
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="fourteen">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="fourteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.fourteen {
+    display: flex;
+    justify-content: space-between;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="justify-content-space-around"></a>
+        <h2 class="header red">
+            <code>
+                justify-content: space-around
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="fifteen">
+            <li class="item"> Red </li>
+            <li class="item"> Green </li>
+            <li class="item"> Blue </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="fifteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; Green &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.fifteen {
+    display: flex;
+    justify-content: space-around;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Align Items </h2>
+    <div class="container">
+        <a name="align-items-stretch"></a>
+        <h2 class="header red">
+            <code>
+                align-items: stretch
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="sixteen">
+            <li class="item"> Red </li>
+            <li class="item"> <h3> Green </h3> </li>
+            <li class="item"> <h1> Blue </h1> </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="sixteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h3&gt; Green &lt;/h3&gt; &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h1&gt; Blue &lt;/h1&gt; &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.sixteen {
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-items-flex-start"></a>
+        <h2 class="header red">
+            <code>
+                align-items: flex-start
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="seventeen">
+            <li class="item"> Red </li>
+            <li class="item"> <h3> Green </h3> </li>
+            <li class="item"> <h1> Blue </h1> </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="seventeen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h3&gt; Green &lt;/h3&gt; &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h1&gt; Blue &lt;/h1&gt; &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.seventeen {
+    display: flex;
+    height: 300px;
+    align-items: flex-start;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-items-flex-end"></a>
+        <h2 class="header red">
+            <code>
+                align-items: flex-end
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="eighteen">
+            <li class="item"> Red </li>
+            <li class="item"> <h3> Green </h3> </li>
+            <li class="item"> <h1> Blue </h1> </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="eighteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h3&gt; Green &lt;/h3&gt; &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h1&gt; Blue &lt;/h1&gt; &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.eighteen {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-items-center"></a>
+        <h2 class="header red">
+            <code>
+                align-items: center
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="nineteen">
+            <li class="item"> Red </li>
+            <li class="item"> <h3> Green </h3> </li>
+            <li class="item"> <h1> Blue </h1> </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="nineteen"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h3&gt; Green &lt;/h3&gt; &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h1&gt; Blue &lt;/h1&gt; &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.nineteen {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-items-baseline"></a>
+        <h2 class="header red">
+            <code>
+                align-items: baseline
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty">
+            <li class="item"> Red </li>
+            <li class="item"> <h3> Green </h3> </li>
+            <li class="item"> <h1> Blue </h1> </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h3&gt; Green &lt;/h3&gt; &lt;/li&gt;<br />    &lt;li class="item"&gt; &lt;h1&gt; Blue &lt;/h1&gt; &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty {
+    display: flex;
+    height: 300px;
+    align-items: baseline;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Align Content </h2>
+    <div class="container">
+        <a name="align-content-stretch"></a>
+        <h2 class="header red">
+            <code>
+                align-content: stretch
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-one">
+            <li class="item"> Red </li>
+            <li class="item">
+                <h3> Green </h3>
+            </li>
+            <li class="item">
+                <h1> Blue </h1>
+            </li>
+            <li class="item"> Red </li>
+            <li class="item">
+                <p>
+                    Lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    In sagittis nisi diam,
+                    luctus tincidunt turpis vulputate
+                    eget. Vestibulum eu ex
+                    semper enim. Pellentesque mattis
+                    nisl, dignissim auctor
+                    elit tempus sit amet.
+                    Morbi in arcu
+                    pretium sapien, vel mattis
+                    odio. Nulla condimentum
+                    quis lorem cursus, non
+                    convallis dui rutrum.
+                    Aenean pharetra elit.
+                    diam ac velit sollicitudin
+                    vulputate ut vitae velit.
+                    Integer semper sit amet
+                    dolor sed accumsan. Nam
+                    nec sem sagittis
+                    eu orci efficitur porta
+                    ac id metus. Vestibulum
+                    mollis lorem, vitae porta
+                    quam mollis vel. Suspendisse
+                    scelerisque congue elit,
+                    quis porttitor ipsum porta
+                    Nulla id consequat ex.
+                    Curabitur non molestie
+                    leo, quis at semper,
+                    luctus erat. Phasellus
+                    rutrum, tellus non convallis
+                    nisi ligula volutpat massa,
+                    sit amet rutrum massa magna
+                    finibus erat.
+                </p>
+            </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-one"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h3&gt; Green &lt;/h3&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h1&gt; Blue &lt;/h1&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt;<br />            Lorem ipsum dolor sit<br />            amet, consectetur adipiscing<br />            In sagittis nisi diam,<br />            luctus tincidunt turpis vulputate<br />            eget. Vestibulum eu ex<br />            semper enim. Pellentesque mattis<br />            nisl, dignissim auctor<br />            elit tempus sit amet.<br />            Morbi in arcu<br />            pretium sapien, vel mattis<br />            odio. Nulla condimentum<br />            quis lorem cursus, non<br />            convallis dui rutrum.<br />            Aenean pharetra elit.<br />            diam ac velit sollicitudin<br />            vulputate ut vitae velit.<br />            Integer semper sit amet<br />            dolor sed accumsan. Nam<br />            nec sem sagittis<br />            eu orci efficitur porta<br />            ac id metus. Vestibulum<br />            mollis lorem, vitae porta<br />            quam mollis vel. Suspendisse<br />            scelerisque congue elit,<br />            quis porttitor ipsum porta<br />            Nulla id consequat ex.<br />            Curabitur non molestie<br />            leo, quis at semper,<br />            luctus erat. Phasellus<br />            rutrum, tellus non convallis<br />            nisi ligula volutpat massa,<br />            sit amet rutrum massa magna<br />            finibus erat.<br />        &lt;/p&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-one {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-content-flex-start"></a>
+        <h2 class="header red">
+            <code>
+                align-content: flex-start
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-two">
+            <li class="item"> Red </li>
+            <li class="item">
+                <h3> Green </h3>
+            </li>
+            <li class="item">
+                <h1> Blue </h1>
+            </li>
+            <li class="item"> Red </li>
+            <li class="item">
+                <p>
+                    Lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    In sagittis nisi diam,
+                    luctus tincidunt turpis vulputate
+                    eget. Vestibulum eu ex
+                    semper enim. Pellentesque mattis
+                    nisl, dignissim auctor
+                    elit tempus sit amet.
+                    Morbi in arcu
+                    pretium sapien, vel mattis
+                    odio. Nulla condimentum
+                    quis lorem cursus, non
+                    convallis dui rutrum.
+                    Aenean pharetra elit.
+                    diam ac velit sollicitudin
+                    vulputate ut vitae velit.
+                    Integer semper sit amet
+                    dolor sed accumsan. Nam
+                    nec sem sagittis
+                    eu orci efficitur porta
+                    ac id metus. Vestibulum
+                    mollis lorem, vitae porta
+                    quam mollis vel. Suspendisse
+                    scelerisque congue elit,
+                    quis porttitor ipsum porta
+                    Nulla id consequat ex.
+                    Curabitur non molestie
+                    leo, quis at semper,
+                    luctus erat. Phasellus
+                    rutrum, tellus non convallis
+                    nisi ligula volutpat massa,
+                    sit amet rutrum massa magna
+                    finibus erat.
+                </p>
+            </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-two"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h3&gt; Green &lt;/h3&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h1&gt; Blue &lt;/h1&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt;<br />            Lorem ipsum dolor sit<br />            amet, consectetur adipiscing<br />            In sagittis nisi diam,<br />            luctus tincidunt turpis vulputate<br />            eget. Vestibulum eu ex<br />            semper enim. Pellentesque mattis<br />            nisl, dignissim auctor<br />            elit tempus sit amet.<br />            Morbi in arcu<br />            pretium sapien, vel mattis<br />            odio. Nulla condimentum<br />            quis lorem cursus, non<br />            convallis dui rutrum.<br />            Aenean pharetra elit.<br />            diam ac velit sollicitudin<br />            vulputate ut vitae velit.<br />            Integer semper sit amet<br />            dolor sed accumsan. Nam<br />            nec sem sagittis<br />            eu orci efficitur porta<br />            ac id metus. Vestibulum<br />            mollis lorem, vitae porta<br />            quam mollis vel. Suspendisse<br />            scelerisque congue elit,<br />            quis porttitor ipsum porta<br />            Nulla id consequat ex.<br />            Curabitur non molestie<br />            leo, quis at semper,<br />            luctus erat. Phasellus<br />            rutrum, tellus non convallis<br />            nisi ligula volutpat massa,<br />            sit amet rutrum massa magna<br />            finibus erat.<br />        &lt;/p&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-two {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+    
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-content-flex-end"></a>
+        <h2 class="header red">
+            <code>
+                align-content: flex-end
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-three">
+            <li class="item"> Red </li>
+            <li class="item">
+                <h3> Green </h3>
+            </li>
+            <li class="item">
+                <h1> Blue </h1>
+            </li>
+            <li class="item"> Red </li>
+            <li class="item">
+                <p>
+                    Lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    In sagittis nisi diam,
+                    luctus tincidunt turpis vulputate
+                    eget. Vestibulum eu ex
+                    semper enim. Pellentesque mattis
+                    nisl, dignissim auctor
+                    elit tempus sit amet.
+                    Morbi in arcu
+                    pretium sapien, vel mattis
+                    odio. Nulla condimentum
+                    quis lorem cursus, non
+                    convallis dui rutrum.
+                    Aenean pharetra elit.
+                    diam ac velit sollicitudin
+                    vulputate ut vitae velit.
+                    Integer semper sit amet
+                    dolor sed accumsan. Nam
+                    nec sem sagittis
+                    eu orci efficitur porta
+                    ac id metus. Vestibulum
+                    mollis lorem, vitae porta
+                    quam mollis vel. Suspendisse
+                    scelerisque congue elit,
+                    quis porttitor ipsum porta
+                    Nulla id consequat ex.
+                    Curabitur non molestie
+                    leo, quis at semper,
+                    luctus erat. Phasellus
+                    rutrum, tellus non convallis
+                    nisi ligula volutpat massa,
+                    sit amet rutrum massa magna
+                    finibus erat.
+                </p>
+            </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-three"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h3&gt; Green &lt;/h3&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h1&gt; Blue &lt;/h1&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt;<br />            Lorem ipsum dolor sit<br />            amet, consectetur adipiscing<br />            In sagittis nisi diam,<br />            luctus tincidunt turpis vulputate<br />            eget. Vestibulum eu ex<br />            semper enim. Pellentesque mattis<br />            nisl, dignissim auctor<br />            elit tempus sit amet.<br />            Morbi in arcu<br />            pretium sapien, vel mattis<br />            odio. Nulla condimentum<br />            quis lorem cursus, non<br />            convallis dui rutrum.<br />            Aenean pharetra elit.<br />            diam ac velit sollicitudin<br />            vulputate ut vitae velit.<br />            Integer semper sit amet<br />            dolor sed accumsan. Nam<br />            nec sem sagittis<br />            eu orci efficitur porta<br />            ac id metus. Vestibulum<br />            mollis lorem, vitae porta<br />            quam mollis vel. Suspendisse<br />            scelerisque congue elit,<br />            quis porttitor ipsum porta<br />            Nulla id consequat ex.<br />            Curabitur non molestie<br />            leo, quis at semper,<br />            luctus erat. Phasellus<br />            rutrum, tellus non convallis<br />            nisi ligula volutpat massa,<br />            sit amet rutrum massa magna<br />            finibus erat.<br />        &lt;/p&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-three {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-content-flex-center"></a>
+        <h2 class="header red">
+            <code>
+                align-content: flex-center
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-four">
+            <li class="item"> Red </li>
+            <li class="item">
+                <h3> Green </h3>
+            </li>
+            <li class="item">
+                <h1> Blue </h1>
+            </li>
+            <li class="item"> Red </li>
+            <li class="item">
+                <p>
+                    Lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    In sagittis nisi diam,
+                    luctus tincidunt turpis vulputate
+                    eget. Vestibulum eu ex
+                    semper enim. Pellentesque mattis
+                    nisl, dignissim auctor
+                    elit tempus sit amet.
+                    Morbi in arcu
+                    pretium sapien, vel mattis
+                    odio. Nulla condimentum
+                    quis lorem cursus, non
+                    convallis dui rutrum.
+                    Aenean pharetra elit.
+                    diam ac velit sollicitudin
+                    vulputate ut vitae velit.
+                    Integer semper sit amet
+                    dolor sed accumsan. Nam
+                    nec sem sagittis
+                    eu orci efficitur porta
+                    ac id metus. Vestibulum
+                    mollis lorem, vitae porta
+                    quam mollis vel. Suspendisse
+                    scelerisque congue elit,
+                    quis porttitor ipsum porta
+                    Nulla id consequat ex.
+                    Curabitur non molestie
+                    leo, quis at semper,
+                    luctus erat. Phasellus
+                    rutrum, tellus non convallis
+                    nisi ligula volutpat massa,
+                    sit amet rutrum massa magna
+                    finibus erat.
+                </p>
+            </li>
+            <li class="item"> Blue </li>
+            <li class="item"> Pink </li>
+            <li class="item"> Purple </li>
+            <li class="item"> Gray </li>
+            <li class="item"> Orange </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-four"&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h3&gt; Green &lt;/h3&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;h1&gt; Blue &lt;/h1&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Red &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt;<br />            Lorem ipsum dolor sit<br />            amet, consectetur adipiscing<br />            In sagittis nisi diam,<br />            luctus tincidunt turpis vulputate<br />            eget. Vestibulum eu ex<br />            semper enim. Pellentesque mattis<br />            nisl, dignissim auctor<br />            elit tempus sit amet.<br />            Morbi in arcu<br />            pretium sapien, vel mattis<br />            odio. Nulla condimentum<br />            quis lorem cursus, non<br />            convallis dui rutrum.<br />            Aenean pharetra elit.<br />            diam ac velit sollicitudin<br />            vulputate ut vitae velit.<br />            Integer semper sit amet<br />            dolor sed accumsan. Nam<br />            nec sem sagittis<br />            eu orci efficitur porta<br />            ac id metus. Vestibulum<br />            mollis lorem, vitae porta<br />            quam mollis vel. Suspendisse<br />            scelerisque congue elit,<br />            quis porttitor ipsum porta<br />            Nulla id consequat ex.<br />            Curabitur non molestie<br />            leo, quis at semper,<br />            luctus erat. Phasellus<br />            rutrum, tellus non convallis<br />            nisi ligula volutpat massa,<br />            sit amet rutrum massa magna<br />            finibus erat.<br />        &lt;/p&gt;<br />    &lt;/li&gt;<br />    &lt;li class="item"&gt; Blue &lt;/li&gt;<br />    &lt;li class="item"&gt; Pink &lt;/li&gt;<br />    &lt;li class="item"&gt; Purple &lt;/li&gt;<br />    &lt;li class="item"&gt; Gray &lt;/li&gt;<br />    &lt;li class="item"&gt; Orange &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-four {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Order </h2>
+    <div class="container">
+        <a name="order-0"></a>
+        <h2 class="header red">
+            <code>
+                order: 0
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-five">
+            <li class="item"> 1 </li>
+            <li class="item"> 2 </li>
+            <li class="item"> 3 </li>
+            <li class="item"> 4 </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-five"&gt;<br />    &lt;li class="item"&gt; 1 &lt;/li&gt;<br />    &lt;li class="item"&gt; 2 &lt;/li&gt;<br />    &lt;li class="item"&gt; 3 &lt;/li&gt;<br />    &lt;li class="item"&gt; 4 &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-five {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-five li:nth-child(1) {
+    order: 0;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="order--1"></a>
+        <h2 class="header red">
+            <code>
+                order: -1
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-six">
+            <li class="item"> 1 </li>
+            <li class="item"> 2 </li>
+            <li class="item"> 3 </li>
+            <li class="item"> 4 </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-six"&gt;<br />    &lt;li class="item"&gt; 1 &lt;/li&gt;<br />    &lt;li class="item"&gt; 2 &lt;/li&gt;<br />    &lt;li class="item"&gt; 3 &lt;/li&gt;<br />    &lt;li class="item"&gt; 4 &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-six {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-six li:nth-child(3) {
+    order: -1;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="order-1"></a>
+        <h2 class="header red">
+            <code>
+                order: 1
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-seven">
+            <li class="item"> 1 </li>
+            <li class="item"> 2 </li>
+            <li class="item"> 3 </li>
+            <li class="item"> 4 </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-seven"&gt;<br />    &lt;li class="item"&gt; 1 &lt;/li&gt;<br />    &lt;li class="item"&gt; 2 &lt;/li&gt;<br />    &lt;li class="item"&gt; 3 &lt;/li&gt;<br />    &lt;li class="item"&gt; 4 &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-seven {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-seven li:nth-child(2) {
+    order: 1;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Grow & Flex Shrink </h2>
+    <div class="container">
+        <a name="flex-shrink-0"></a>
+        <h2 class="header red">
+            <code>
+                flex-shrink: 0
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-eight">
+            <li class="item"> coffee </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-eight"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-eight {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-eight li {
+    flex-shrink: 0;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-shrink-1"></a>
+        <h2 class="header red">
+            <code>
+                flex-shrink: 1
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="twenty-nine">
+            <li class="item"> Is coffee better than tea? </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="twenty-nine"&gt;<br />    &lt;li class="item"&gt; Is coffee better than tea? &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.twenty-nine {
+    display: flex;
+    flex-flow: row wrap;
+}
+.twenty-nine li {
+    flex-shrink: 1;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-grow-0"></a>
+        <h2 class="header red">
+            <code>
+                flex-grow: 0
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty">
+            <li class="item">
+                <p> Is coffee better than tea? </p>
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty"&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt; Is coffee better than tea? &lt;/p&gt;<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty {
+    display: flex;
+    flex-flow: row wrap;
+}
+.thirty li {
+    flex-grow: 0;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-grow-1"></a>
+        <h2 class="header red">
+            <code>
+                flex-grow: 1
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-one">
+            <li class="item">
+                <p> Is coffee better than tea? </p>
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-one"&gt;<br />    &lt;li class="item"&gt;<br />        &lt;p&gt; Is coffee better than tea? &lt;/p&gt;<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-one {
+    display: flex;
+    flex-flow: row wrap;
+}
+.thirty-one li {
+    flex-grow: 1;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex Basis </h2>
+    <div class="container">
+        <a name="flex-basis-auto"></a>
+        <h2 class="header red">
+            <code>
+                flex-basis: auto
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-two">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-two"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-two {
+    display: flex;
+}
+.thirty-two li {
+    flex-basis: auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-basis-50-percentage"></a>
+        <h2 class="header red">
+            <code>
+                flex-basis: 50%
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-three">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-three"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-three {
+    display: flex;
+}
+.thirty-three li {
+    flex-basis: 50%;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="flex-basis-100-pixels"></a>
+        <h2 class="header red">
+            <code>
+                flex-basis: 100px
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-four">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-four"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-four {
+    display: flex;
+}
+.thirty-four li {
+    flex-basis: 100px;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Flex </h2>
+    <div class="container">
+        <a name="flex"></a>
+        <h2 class="header red">
+            <code>
+                flex: 0 1 150px;
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-five">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-five"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-five {
+    display: flex;
+}
+.thirty-five li {
+    flex: 0 1 150px;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Align Self </h2>
+    <div class="container">
+        <a name="align-self-flex-start"></a>
+        <h2 class="header red">
+            <code>
+                align-self: flex-start
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-six">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-six"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-six {
+    display: flex;
+    height: 500px;
+}
+.thirty-six li:first-of-type {
+    align-self: flex-start;
+}
+
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-self-flex-end"></a>
+        <h2 class="header red">
+            <code>
+                align-self: flex-end
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-seven">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-seven"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-seven {
+    display: flex;
+    height: 500px;
+}
+.thirty-seven li:first-of-type {
+    align-self: flex-end;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-self-center"></a>
+        <h2 class="header red">
+            <code>
+                align-self: center
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-eight">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-eight"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-eight {
+    display: flex;
+    height: 500px;
+}
+.thirty-eight li:first-of-type {
+    align-self: center;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-self-stretch"></a>
+        <h2 class="header red">
+            <code>
+                align-self: stretch
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="thirty-nine">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="thirty-nine"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.thirty-nine {
+    display: flex;
+    height: 500px;
+}
+.thirty-nine li:first-of-type {
+    align-self: stretch;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-self-auto"></a>
+        <h2 class="header red">
+            <code>
+                align-self: auto
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty {
+    display: flex;
+    height: 500px;
+}
+.forty li:first-of-type {
+    align-self: auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="align-self-baseline"></a>
+        <h2 class="header red">
+            <code>
+                align-self: baseline
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty-one">
+            <li class="item"> coffee </li>
+            <li class="item"> is coffee better than tea? </li>
+            <li class="item">
+                Remember how I said the beauty
+                of the flex-items is being
+                “flexible”? Well, it appears
+                you also have a control over
+                that.
+            </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty-one"&gt;<br />    &lt;li class="item"&gt; coffee &lt;/li&gt;<br />    &lt;li class="item"&gt; is coffee better than tea? &lt;/li&gt;<br />    &lt;li class="item"&gt;<br />        Remember how I said the beauty<br />        of the flex-items is being<br />        &ldquo;flexible&rdquo;? Well, it appears<br />        you also have a control over<br />        that.<br />    &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty-one {
+    display: flex;
+    height: 500px;
+}
+.forty-one li:first-of-type {
+    align-self: baseline;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <h2 style="font-family: AppleGothic; color: dimgray; text-align: center"> Auto Margin Alignment </h2>
+    <div class="container">
+        <a name="auto-margin-alignment"></a>
+        <h2 class="header red">
+            <code>
+                default margin
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty-two">
+            <li class="item"> Home </li>
+            <li class="item"> About </li>
+            <li class="item"> Experience </li>
+            <li class="item"> Education </li>
+            <li class="item"> Skills </li>
+            <li class="item"> Contact </li>
+
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty-two"&gt;<br />    &lt;li class="item"&gt; Home &lt;/li&gt;<br />    &lt;li class="item"&gt; About &lt;/li&gt;<br />    &lt;li class="item"&gt; Experience &lt;/li&gt;<br />    &lt;li class="item"&gt; Education &lt;/li&gt;<br />    &lt;li class="item"&gt; Skills &lt;/li&gt;<br />    &lt;li class="item"&gt; Contact &lt;/li&gt;<br /><br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty-two {
+    display: flex;
+}
+.forty-two li:first-of-type {
+    flex: 0 0 auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="auto-margin-alignment-margin-right-auto"></a>
+        <h2 class="header red">
+            <code>
+                margin-right: auto
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty-three">
+            <li class="item"> Home </li>
+            <li class="item"> About </li>
+            <li class="item"> Experience </li>
+            <li class="item"> Education </li>
+            <li class="item"> Skills </li>
+            <li class="item"> Contact </li>
+
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty-three"&gt;<br />    &lt;li class="item"&gt; Home &lt;/li&gt;<br />    &lt;li class="item"&gt; About &lt;/li&gt;<br />    &lt;li class="item"&gt; Experience &lt;/li&gt;<br />    &lt;li class="item"&gt; Education &lt;/li&gt;<br />    &lt;li class="item"&gt; Skills &lt;/li&gt;<br />    &lt;li class="item"&gt; Contact &lt;/li&gt;<br /><br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty-three {
+    display: flex;
+}
+.forty-three li {
+    flex: 0 0 auto;
+}
+.forty-three li:nth-child(1) {
+    margin-right: auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="auto-margin-alignment-margin-left-auto"></a>
+        <h2 class="header red">
+            <code>
+                margin-left: auto
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty-four">
+            <li class="item"> Home </li>
+            <li class="item"> About </li>
+            <li class="item"> Experience </li>
+            <li class="item"> Education </li>
+            <li class="item"> Skills </li>
+            <li class="item"> Contact </li>
+
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty-four"&gt;<br />    &lt;li class="item"&gt; Home &lt;/li&gt;<br />    &lt;li class="item"&gt; About &lt;/li&gt;<br />    &lt;li class="item"&gt; Experience &lt;/li&gt;<br />    &lt;li class="item"&gt; Education &lt;/li&gt;<br />    &lt;li class="item"&gt; Skills &lt;/li&gt;<br />    &lt;li class="item"&gt; Contact &lt;/li&gt;<br /><br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty-four {
+    display: flex;
+}
+.forty-four li {
+    flex: 0 0 auto;
+}
+.forty-four li:nth-child(4) {
+    margin-left: auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+
+    <!--####################################################################################################-->
+
+    <div class="container">
+        <a name="auto-margin-alignment-margin-left-and-right-auto"></a>
+        <h2 class="header red">
+            <code>
+                margin-left: auto & margin-right: auto
+            </code>
+        </h2>
+        <!--code-->
+        <ul class="forty-five">
+            <li class="item"> Home </li>
+            <li class="item"> About </li>
+            <li class="item"> Experience </li>
+            <li class="item"> Education </li>
+            <li class="item"> Contact </li>
+        </ul>
+        <!--code-->
+        <br>
+        <details>
+            <summary> <b> Source Code </b> </summary>
+            <article class="source-code">
+                <section class="html">
+                    <!--code-->
+                    <pre>&lt;ul class="forty-five"&gt;<br />    &lt;li class="item"&gt; Home &lt;/li&gt;<br />    &lt;li class="item"&gt; About &lt;/li&gt;<br />    &lt;li class="item"&gt; Experience &lt;/li&gt;<br />    &lt;li class="item"&gt; Education &lt;/li&gt;<br />    &lt;li class="item"&gt; Contact &lt;/li&gt;<br />&lt;/ul&gt;</pre>
+                    <!--code-->
+                </section>
+                <section class="css">
+                    <code>
+                        <pre>
+                        <!--code-->
+.forty-five {
+    display: flex;
+}
+.forty-five li {
+    flex: 0 0 auto;
+}
+.forty-five li:nth-child(4) {
+    margin-left: auto;
+    margin-right: auto;
+}
+                            <!--code-->
+                        </pre>
+                    </code>
+                </section>
+            </article>
+        </details>
+    </div>
+</body>
+</html>
