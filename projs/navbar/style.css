@@ -40,14 +40,10 @@ nav {
         flex-wrap: wrap;
     }
     .tab {
-        flex-grow: 1;
-        flex-basis: calc(33.33333% - 32px);
-        flex-shrink: 1;
+        flex: 1 1 calc(33.33333% - 32px);
     }
     .social {
-        flex-grow: 1;
-        flex-basis: calc(25% - 32px);
-        flex-shrink: 1;
+        flex: 1 1 calc(25% - 32px);
     }
 }
 @media all and (max-width: 510px){
