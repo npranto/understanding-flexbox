@@ -3,6 +3,15 @@ A guide to understanding flexbox in depth with practical examples
 
 [Visual Guide](http://understanding-flexbox.surge.sh)
 
+### Table of Contents
++ [Flexbox](https://github.com/npranto/understanding-flexbox#flexbox)
++ [Breaking Down Flexbox Model](https://github.com/npranto/understanding-flexbox#breaking-down-flexbox-model)
++ [Flex Container Properties](https://github.com/npranto/understanding-flexbox#flex-container-properties)
++ [Flex Item Properties](https://github.com/npranto/understanding-flexbox#flex-item-properties)
++ _Demos_
+    + [navbar](https://github.com/npranto/understanding-flexbox/tree/master/demos/navbar)
+    + [mobile-content-order](https://github.com/npranto/understanding-flexbox/tree/master/demos/mobile-content-reorder)
+
 ### Flexbox
 + a recently new CSS standard that simplifies adding desired layouts to page content
 + provides [an efficient way to layout, align, and distributed spacing among elements in the DOM](https://goo.gl/XiuagG)
