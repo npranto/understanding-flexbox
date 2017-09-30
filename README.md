@@ -13,8 +13,6 @@ A guide to understanding flexbox in depth with practical examples
     + [navbar](https://github.com/npranto/understanding-flexbox/tree/master/demos/navbar)
     + [mobile-content-order](https://github.com/npranto/understanding-flexbox/tree/master/demos/mobile-content-reorder)
 
----
-
 ### Flexbox
 + a recently new CSS standard that simplifies adding desired layouts to page content
 + provides [an efficient way to layout, align, and distributed spacing among elements in the DOM](https://goo.gl/XiuagG)
